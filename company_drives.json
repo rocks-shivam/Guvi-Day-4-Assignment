@@ -1,0 +1,32 @@
+[
+  {
+    "id":1,
+    "Company_name":"Amazon",
+    "Company_date":ISODate("2021-10-15"),
+    "Appeared_students":["Shivam","John","Ram"]
+  },
+  {
+    "id":2,
+    "Company_name":"Delloite",
+    "Company_date":ISODate("2021-10-20"),
+    "Appeared_students":["Shivam","John","Ram"]
+  },
+  {
+    "id":3,
+    "Company_name":"Chubb",
+    "Company_date":ISODate("2021-10-23"),
+    "Appeared_students":["Shivam","John"]
+  },
+  {
+    "id":4,
+    "Company_name":"Google",
+    "Company_date":ISODate("2021-10-25"),
+    "Appeared_students":["Shyam"]
+  },
+  {
+    "id":4,
+    "Company_name":"Microsoft",
+    "Company_date":ISODate("2021-10-30"),
+    "Appeared_students":["Shyam"]
+  }
+]
