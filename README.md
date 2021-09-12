@@ -3,4 +3,6 @@
 
 #find the text json files.
 
+#queries answers are in Day 4 Queries Answers
+
 #as a proof find the screenshots
