@@ -27,4 +27,5 @@ Ans5.db.mentors.find({"no_of_mentees":{$gte:15}},{mentor_name:1});
 Q6.Find the number of users who are absent and task is not submitted  
 between 15 oct-2020 and 31-oct-2020
 
-Ans6.db.users.countDocuments({$and:[{"attendance.status":"absent"},{"task.status":"Not Submitted"},{"tasks.task_date":{$gte:ISODate("2021-10-01T00:00:00.000+00:00"), $lte:ISODate("2021-10-31T00:00:00.000+00:00")}}]};
+Ans6.db.users.countDocuments({$and:[{"attendance.status":"absent"},{"task.status":"Not Submitted"},{"tasks.task_date":
+{$gte:ISODate("2021-10-01T00:00:00.000+00:00"), $lte:ISODate("2021-10-31T00:00:00.000+00:00")}}]};
